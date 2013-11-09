@@ -110,6 +110,15 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
+" MiniBufExpl colors
+" (https://github.com/techlivezheng/vim-plugin-minibufexpl)
+hi MBENormal               guifg=#7E8E91 guibg=fg
+hi MBEChanged              guifg=#7E8E91 guibg=fg gui=italic
+hi MBEVisibleNormal        guifg=#66D9EF guibg=fg
+hi MBEVisibleChanged       guifg=#66D9EF guibg=fg gui=italic
+hi MBEVisibleActiveNormal  guifg=#A6E22E guibg=fg gui=bold
+hi MBEVisibleActiveChanged guifg=#A6E22E guibg=fg gui=italic,bold
+
 if s:molokai_original == 1
    hi Normal          guifg=#F8F8F2 guibg=#272822
    hi Comment         guifg=#75715E
